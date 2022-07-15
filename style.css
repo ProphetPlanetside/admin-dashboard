@@ -102,6 +102,40 @@ input {
   background-color: rgb(208, 215, 221);
   grid-column: 2 / 3;
   grid-row: 2 / 3;
+  display: grid;
+  /* Area for Your Projects, then area under Announcements. */
+  grid-template-columns: 3fr 1fr;
+  /* "Your Projects & Announcements" header section, area from "Site Maintenance" to
+  "Updated Privacy Policy," the "Trending" header section, area below "Trending." */
+  grid-template-rows: 1fr 4fr 1fr 3.5fr;
+}
+
+.your-projects-header {
+  grid-column: 1 / 2;
+}
+
+.projects-grid {
+  grid-column: 1 / 2;
+  grid-row: 2 / 5;
+}
+
+.announcements-header {
+  grid-column: 2 / 3;
+}
+
+.announcements-square {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.trending-header {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.trending-square {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
 }
 
 /* Main-Content: end of CSS classes */
