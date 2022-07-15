@@ -117,6 +117,9 @@ input {
 .projects-grid {
   grid-column: 1 / 2;
   grid-row: 2 / 5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .announcements-header {
@@ -126,6 +129,8 @@ input {
 .announcements-square {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .trending-header {
@@ -136,6 +141,8 @@ input {
 .trending-square {
   grid-column: 2 / 3;
   grid-row: 4 / 5;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 /* Main-Content: end of CSS classes */
