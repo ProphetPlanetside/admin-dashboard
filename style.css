@@ -44,6 +44,28 @@ html, body {
   border: 1px solid black;
   grid-column: 2 / 3;
   grid-row: 1 / 2;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+}
+
+.search-bar {
+  padding-left: 2vw;
+}
+
+.notifications {
+  justify-self: end;
+  padding-right: 2vw;
+}
+
+.hi-there {
+  padding-left: 2vw;
+}
+
+.buttons {
+  justify-self: end;
+  padding-right: 2vw;
 }
 
 /* Header: end of CSS classes */
