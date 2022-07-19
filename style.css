@@ -65,6 +65,11 @@ html, body {
   padding-left: 2vw;
 }
 
+.search-bar img {
+  position: relative;
+  top: 6px;
+}
+
 input {
   width: 82%;
   margin-left: 2.5vw;
@@ -80,6 +85,12 @@ input {
   font-weight: bold;
 }
 
+.small-header-picture {
+  position: relative;
+  bottom: 5px;
+  border-radius: 50px;
+}
+
 .hi-there-area {
   padding-left: 2vw;
   display: grid;
@@ -91,6 +102,7 @@ input {
 .big-header-picture {
   grid-row: 1 / 3;
   align-self: center;
+  border-radius: 50px;
 }
 
 .hi-there, .hi-there-name {
@@ -170,15 +182,22 @@ button {
 .announcements-square {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
-  padding: 10px;
+  padding: 10px 20px 20px 20px;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   background-color: white;
   border-radius: 10px;
+  align-items: center;
 }
 
-.announcement {
+.announcement, .announcement2 {
   font-size: 11px;
+  
+}
+
+.announcement2 {
+  border-top: solid 1px black;
+  padding-top: 30px;
 }
 
 .announcement-name {
