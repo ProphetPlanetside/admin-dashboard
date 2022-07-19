@@ -71,9 +71,12 @@ html, body {
 }
 
 input {
-  width: 82%;
+  width: 83%;
+  height: 25px;
   margin-left: 2.5vw;
   border-radius: 25px;
+  background-color: rgb(208, 215, 221);
+  border: 0px;
 }
 
 .notifications {
@@ -103,6 +106,7 @@ input {
   grid-row: 1 / 3;
   align-self: center;
   border-radius: 50px;
+  margin-right: 1vw;
 }
 
 .hi-there, .hi-there-name {
@@ -125,6 +129,7 @@ button {
   border-radius: 25px;
   background-color: rgb(2, 149, 235);
   color: white;
+  border: 0px;
 }
 
 /* Header: end of CSS classes */
@@ -141,6 +146,8 @@ button {
   /* "Your Projects & Announcements" header section, area from "Site Maintenance" to
   "Updated Privacy Policy," the "Trending" header section, area below "Trending." */
   grid-template-rows: 0.7fr 4fr 1fr 3.5fr;
+  padding-right: 2vw;
+  padding-left: 1vw;
 }
 
 .your-projects-header {
@@ -154,6 +161,7 @@ button {
   grid-column: 1 / 2;
   grid-row: 2 / 5;
   padding-bottom: 5vh;
+  padding-right: 2vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -234,6 +242,7 @@ button {
   background-color: white;
   border-radius: 10px;
   font-size: 13px;
+  margin-bottom: 6vh;
 }
 
 .trending-square img {
