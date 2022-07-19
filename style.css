@@ -35,6 +35,17 @@ html, body {
   align-content: start; 
 }
 
+.sidebar-container img {
+  position: relative;
+  top: 3px;
+}
+
+.dashboard img {
+  position: relative;
+  top: 8px;
+  right: 4px;
+}
+
 /* Sidebar: end of CSS classes */
 
 /* Header: start of CSS classes */
@@ -66,6 +77,7 @@ input {
   display: grid;
   grid-template-columns: 1fr 1fr auto;
   gap: 2.5vw;
+  font-weight: bold;
 }
 
 .hi-there-area {
@@ -73,6 +85,7 @@ input {
   display: grid;
   grid-template-columns: 1fr 12fr;
   grid-template-rows: 1fr 1fr;
+  font-weight: bold;
 }
 
 .big-header-picture {
@@ -122,6 +135,7 @@ button {
   grid-column: 1 / 2;
   align-self: center;
   margin-left: 1vw;
+  font-weight: bold;
 }
 
 .projects-grid {
@@ -150,6 +164,7 @@ button {
 .announcements-header {
   grid-column: 2 / 3;
   align-self: center;
+  font-weight: bold;
 }
 
 .announcements-square {
@@ -175,6 +190,7 @@ button {
   grid-column: 2 / 3;
   grid-row: 3 / 4;
   align-self: center;
+  font-weight: bold;
 }
 
 .trending-square {
